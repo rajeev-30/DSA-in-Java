@@ -1,6 +1,7 @@
 package ARRAYS;
 
 public class Binary__Search {
+    //Binary Search
     public static int BinarySearch(int arr[], int element) {
         int low = 0, high = arr.length - 1;
         while (low <= high) {
